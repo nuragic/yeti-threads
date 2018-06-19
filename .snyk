@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - drboom-joi > boom > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - drboom-joi > joi > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - drboom-joi > joi > topo > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - hapi-auth-jwt > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - drboom-pg > boom > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - drboom-pg > joi > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - drboom-pg > joi > topo > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - hapi > subtext > content > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
+    - hapi > subtext > pez > content > hoek:
+        patched: '2018-06-19T06:17:08.239Z'
